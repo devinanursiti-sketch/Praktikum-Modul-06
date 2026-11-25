@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Ini belajar js</h1>
+
+    <script>
+        // Data mahasiswa
+        const nama = "Alya";
+        const tugas = 80;
+        const uts = 70;
+        const uas = 90;
+        
+        // Hitung nilai akhir
+        const nilaiAkhir = tugas * 0.30 + uts * 0.30 + uas * 0.40;
+        
+        // Tentukan status kelulusan
+        let status;
+        if (nilaiAkhir >= 60) {
+          status = "LULUS";
+        } else {
+          status = "TIDAK LULUS";
+        }
+        
+        // Tampilkan hasil
+        console.log("Nama mahasiswa:", nama);
+        console.log("Nilai akhir:", nilaiAkhir);
+        console.log("Status:", status);
+    
+    </script>
+</body>
+</html>
